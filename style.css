@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background: #de7575;
+}
+
+header {
+  background: #924646;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(128, 57, 57, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #520909;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #555;
+}
+
+.hero {
+  background-image: url("./images.jpg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero {
+  background: url("banner.jpg") center/cover no-repeat;
+  color: black;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero .btn {
+  margin-top: 20px;
+  background: #e91e63;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.produk {
+  padding: 40px 20px;
+  background: #fff;
+}
+
+.produk h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.produk-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.produk-item {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+  padding: 15px;
+}
+
+.produk-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.produk-item button {
+  background: #e91e63;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+footer {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 20px;
+}
